@@ -28,6 +28,12 @@ class Decks {
       this.brand[index] = piece
     }
   }
+  // 摸牌
+  drawTheCards () {
+    const piece = this.brand[0]
+    this.brand.shift()
+    return piece
+  }
 }
 
 export default Decks
