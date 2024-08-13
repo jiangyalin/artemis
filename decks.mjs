@@ -1,6 +1,7 @@
-const brandValue = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A']
+const brandValue = ['A', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K']
 const brandColor = ['#', '$', '@', '%']
 
+// 牌堆
 class Decks {
   brand = [{
     color: 'big',
